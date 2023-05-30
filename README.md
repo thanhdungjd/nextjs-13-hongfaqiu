@@ -1,5 +1,7 @@
 # Using Ant-Design 5 with Next.js 13 and Tailwind CSS
 
+Forked from [nextjs-antd-tailwindcss](https://github.com/hongfaqiu/nextjs13-with-antd-tailwindcss/tree/no-css-in-js)
+
 Antd is is an excellent UI component library, but there are some conflicts between the antdV5 and Next.js 13.
 This repository solved these problems, and you can use the template to start your project.
 
@@ -18,13 +20,13 @@ This repository solved these problems, and you can use the template to start you
 Here are some problems and solutions I encountered when I started the project
 
 1. Server side rendering and CSS-in-JS antd5
-    <https://github.com/vercel/next.js/issues/44125#issuecomment-1372270391>
+   <https://github.com/vercel/next.js/issues/44125#issuecomment-1372270391>
 
 2. Distinguish client/server components when using Next.js 13 app directory
-    <https://beta.nextjs.org/docs/rendering/server-and-client-components>
+   <https://beta.nextjs.org/docs/rendering/server-and-client-components>
 
 3. Priority conflict of css style when using Ant-Design 5 and Tailwind CSS
-    <https://github.com/ant-design/ant-design/issues/38794#issuecomment-1328262525>
+   <https://github.com/ant-design/ant-design/issues/38794#issuecomment-1328262525>
 
 4. DatePicker component internationalization has not taken effect
-    <https://github.com/ant-design/ant-design/issues/27276#issuecomment-1281799701>
+   <https://github.com/ant-design/ant-design/issues/27276#issuecomment-1281799701>
